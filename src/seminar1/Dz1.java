@@ -1,6 +1,6 @@
 package seminar1;
 
-class Answer1 {
+class Answer11 {
     public static int convertAndSum(String[] strings) {
         // Введите свое решение ниже
         int sum = 0;
@@ -23,7 +23,7 @@ public class Dz1 {
         // Первая попытка: корректный ввод
         try {
             String[] strings = {"10", "20", "70"};
-            System.out.println(Answer1.convertAndSum(strings));
+            System.out.println(Answer11.convertAndSum(strings));
             // Ожидаемый результат: 100
         } catch (NumberFormatException e) {
             System.out.println("Ошибка преобразования строки в число");
@@ -33,7 +33,7 @@ public class Dz1 {
         // Вторая попытка: ввод с некорректным числом
         try {
             String[] invalidStrings = {"10", "20", "abc"};
-            System.out.println(Answer1.convertAndSum(invalidStrings));
+            System.out.println(Answer11.convertAndSum(invalidStrings));
             //Ожидаемый результат: исключение NumberFormatException
         } catch (NumberFormatException e) {
             System.out.println("Ошибка преобразования строки в число");
@@ -43,7 +43,7 @@ public class Dz1 {
         // Третья попытка: сумма превышает лимит
         try {
             String[] overLimitStrings = {"50", "60"};
-            System.out.println(Answer1.convertAndSum(overLimitStrings));
+            System.out.println(Answer11.convertAndSum(overLimitStrings));
             // Ожидаемый результат: исключение ArithmeticException
         } catch (NumberFormatException e) {
             System.out.println("Ошибка преобразования строки в число");

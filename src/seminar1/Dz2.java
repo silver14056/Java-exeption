@@ -3,7 +3,7 @@ package seminar1;
 import java.util.Arrays;
 
 
-class Answer2 {
+class Answer12 {
     public static int[] mergeAndValidateArrays(int[] a, int[] b) {
         // Введите свое решение ниже
         if (a.length != b.length) {
@@ -25,7 +25,7 @@ public class Dz2 {
         try {
             int[] a = {1, 2, 3};
             int[] b = {4, 5, 6};
-            int[] result = Answer2.mergeAndValidateArrays(a, b);
+            int[] result = Answer12.mergeAndValidateArrays(a, b);
             System.out.println(Arrays.toString(result));
             //Ожидаемый результат: [1, 2, 3, 4, 5, 6]
         } catch (IllegalArgumentException e) {
@@ -36,7 +36,7 @@ public class Dz2 {
         try {
             int[] c = {1, 2};
             int[] d = {3, 4, 5};
-            System.out.println(Arrays.toString(Answer2.mergeAndValidateArrays(c, d)));
+            System.out.println(Arrays.toString(Answer12.mergeAndValidateArrays(c, d)));
             // Ожидаемый результат: исключение IllegalArgumentException
         } catch (IllegalArgumentException e) {
             System.out.println("Длины массивов не равны");
@@ -46,7 +46,7 @@ public class Dz2 {
         try {
             int[] e = {-1, 2, 3};
             int[] f = {4, 5, 6};
-            System.out.println(Arrays.toString(Answer2.mergeAndValidateArrays(e, f)));
+            System.out.println(Arrays.toString(Answer12.mergeAndValidateArrays(e, f)));
             // Ожидаемый результат: исключение RuntimeException
         } catch (IllegalArgumentException e) {
             System.out.println("Длины массивов не равны");

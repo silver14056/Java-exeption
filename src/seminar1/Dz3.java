@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-class Answer3 {
+class Answer13 {
     public int[] subArraysWithExceptionHandling(int[] a, int[] b, List<String> errors) {
         // Введите свое решение ниже
         try {
@@ -41,14 +41,14 @@ public class Dz3 {
         List<String> errors = new ArrayList<>();
         int[] a = {10, 20, 30};
         int[] b = {5, 15, 35};
-        int[] result = new Answer3().subArraysWithExceptionHandling(a, b, errors);
+        int[] result = new Answer13().subArraysWithExceptionHandling(a, b, errors);
         System.out.println(Arrays.toString(result));
         //Ожидаемый результат: исключение RuntimeException
 
 
         int[] c = {10, 20};
         int[] d = {5, 15, 25};
-        result = new Answer3().subArraysWithExceptionHandling(c, d, errors);
+        result = new Answer13().subArraysWithExceptionHandling(c, d, errors);
         System.out.println(Arrays.toString(result));
         //Ожидаемый результат: исключение IllegalArgumentException
 

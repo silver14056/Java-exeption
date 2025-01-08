@@ -3,7 +3,7 @@ package seminar1;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.List;
-class Answer4 {
+class Answer14 {
     public static String[] findAndReplace(String[] strings, String target, String replacement, List<String> errors) {
         // Напишите свое решение ниже
         String[] result = Arrays.copyOf(strings, strings.length);
@@ -27,7 +27,7 @@ public class Dz4 {
         String[] strings = {"apple", "banana", "cherry", "date"};
         String target = "banana";
         String replacement = "orange";
-        String[] result = Answer4.findAndReplace(strings, target, replacement, errors);
+        String[] result = Answer14.findAndReplace(strings, target, replacement, errors);
         System.out.println("Результаты замены: " + Arrays.toString(result));
         if (!errors.isEmpty()) {
             System.out.println("Обнаружены ошибки:");
