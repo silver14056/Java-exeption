@@ -57,6 +57,7 @@ class DateValidator {
         }
     }
 }
+
 public class Dz1 {
     public static void main(String[] args) {
         String date;
